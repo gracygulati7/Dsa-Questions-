@@ -11,7 +11,7 @@ class Solution {
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i];  // add current element to sum
 
-            // Case 1: If current sum equals k, entire subarray from 0 to i is valid
+            // Case 1: If current sum equals k, entire subarray from 0 to i is valid.
             if (sum == k) {
                 maxlen = i + 1;
             }
