@@ -5,6 +5,6 @@ class Solution {
         if(s.length()!=goal.length()) return false;
         String res=s+s;
         if(res.contains(goal)) return true;
-        else return false;
+        return false;
     }
 }
