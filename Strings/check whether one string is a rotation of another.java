@@ -1,0 +1,10 @@
+// https://leetcode.com/problems/rotate-string/
+
+class Solution {
+    public boolean rotateString(String s, String goal) {
+        if(s.length()!=goal.length()) return false;
+        String res=s+s;
+        if(res.contains(goal)) return true;
+        else return false;
+    }
+}
