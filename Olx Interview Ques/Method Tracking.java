@@ -49,10 +49,18 @@ class Solution {
             "method4 exit 12:00");
         Map<String,Integer> res=solve(logs);
         for(String key:res.keySet()){
-            System.out.println(key+" : "+res.get(key)+" minutes");
+            System.out.println(key+": "+res.get(key)+" minutes");
         }
     }
 }
 
+
+/*
+OUTPUT:
+method2: 5 minutes
+method1: 20 minutes
+method4: -1 minutes
+method3: -1 minutes
+*/
 
 // TC: O(N) , SC: O(N)
